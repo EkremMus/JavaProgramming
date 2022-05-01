@@ -27,7 +27,6 @@ public class MorningWorkOut {
 
     //                      2.5
     public static void sleep(double seconds)  {
-
         try {
             Thread.sleep( (long) (seconds * 1000) );
         } catch (InterruptedException e) {
