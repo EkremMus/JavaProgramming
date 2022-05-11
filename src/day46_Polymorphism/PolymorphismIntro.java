@@ -85,12 +85,12 @@ public class PolymorphismIntro {
         //  System.out.println( shape.getRadius());
         // System.out.println( shape.PI);
 
-        boolean isSquare = shape instanceof Square;
+        //boolean isSquare = shape instanceof Square;
         boolean isRectangle = shape instanceof Rectangle;
         boolean isTriangle = shape instanceof Triangle;
         boolean isCircle = shape instanceof Circle;
 
-        System.out.println("isSquare = " + isSquare);
+        //System.out.println("isSquare = " + isSquare);
         System.out.println("isTriangle = " + isTriangle);
         System.out.println("isRectangle = " + isRectangle);
         System.out.println("isCircle = " + isCircle);
